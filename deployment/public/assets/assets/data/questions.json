@@ -1,0 +1,278 @@
+[
+    {
+      "id": 1,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "multipleChoice",
+      "image": "https://naplan-images.s3.ap-southeast-2.amazonaws.com/uploads/Untitled+design-3.png",
+      "description": "Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school Nom Nom is wanted for taking children's lunches. This mischievous creature has been spotted sneaking into school cafeterias, hiding behind vending machines, and skillfully avoiding the watchful eyes of teachers and staff. Known for its cunning nature, Nom Nom has perfected the art of snatching sandwiches, juice boxes, and even entire lunch trays without anyone noticing. Witnesses report that Nom Nom has an insatiable appetite and a particular fondness for peanut butter and jelly sandwiches. Despite multiple attempts to catch Nom Nom in the act, this lunch-loving creature has managed to escape every time. Authorities have tried placing hidden cameras, setting up decoy lunches, and even enlisting the help of school mascots to apprehend Nom Nom. However, every effort has resulted in Nom Nom cleverly outwitting them. Students have started forming 'Nom Nom Watch Groups' to protect their meals, while some have devised clever strategies, such as locking their lunchboxes with combination codes and keeping snacks in secret compartments. There are even rumors that Nom Nom has a network of squirrel allies who assist in carrying away the stolen goods. One daring student, Alex, managed to snap a blurry photo of Nom Nom mid-heist, capturing what appears to be a small, furry creature with wide eyes and a mischievous grin. Experts believe Nom Nom might have evolved to thrive in school environments, adapting to different lunchroom layouts and schedules. If you have any information on Nom Nom’s whereabouts, please report to the cafeteria staff immediately. In the meantime, keep your lunches close and your snacks closer!",
+      "questionText":  "What is the value of $\\sqrt{9}$",
+      "questionTextImage":"https://cdn-icons-png.flaticon.com/512/3075/3075494.png",
+      "categories":[],
+      "options": [
+        "for hiding under a desk",
+        "for taking children’s lunches",
+        "for taking money",
+        "for scaring children"
+      ],
+      "correctAnswer": ["1"],
+      "type": "multipleChoice"
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,      
+      "title": "sentenceSelection",
+      "image": "",
+      "questionTextImage":"https://cdn-icons-png.flaticon.com/512/3075/3075494.png",
+
+      "description": "<h2>The Mysterious Case of Nom Nom: The Lunchroom Bandit<\/h2>\r\n\r\n<p>For years, the legend of <strong>Nom Nom<\/strong> has spread across school cafeterias, whispered among students and baffling school staff. Known for its swift movements and unparalleled stealth, Nom Nom has become the most elusive food thief in school history.<\/p>\r\n\r\n<img src='https:\/\/example.com\/nom_nom.jpg' alt='Nom Nom Sneaking' width='100%' \/>\r\n\r\n<h3>The Rise of Nom Nom<\/h3>\r\n<p>It all started one fateful afternoon when students noticed something peculiar\u2014entire lunchboxes were disappearing. Peanut butter sandwiches, apple slices, and juice boxes vanished without a trace. Initially, it was thought to be the work of pranksters, but as the incidents increased, it became clear\u2014this was no ordinary food snatcher.<\/p>\r\n\r\n<h3>What We Know So Far<\/h3>\r\n<ul>\r\n  <li><strong>Speed & Agility:<\/strong> Nom Nom can dash across the cafeteria in mere seconds, unseen by most.<\/li>\r\n  <li><strong>Preferred Snacks:<\/strong> Evidence suggests a love for peanut butter and jelly sandwiches, fruit, and the occasional chocolate bar.<\/li>\r\n  <li><strong>Elusive Nature:<\/strong> Multiple attempts to capture Nom Nom on security cameras have failed.<\/li>\r\n<\/ul>\r\n\r\n<h3>Witness Accounts<\/h3>\r\n<p>Several students have reported seeing a shadowy figure darting behind tables and under vending machines. One eyewitness, Alex, described the encounter:<\/p>\r\n\r\n<blockquote>\r\n  'I was just about to take a bite of my sandwich when, in a blur, it was gone. All I saw was a tiny shadow moving under the cafeteria bench!'\r\n<\/blockquote>\r\n\r\n<h3>Theories Behind Nom Nom\u2019s Origins<\/h3>\r\n<p>Where did Nom Nom come from? Experts and students alike have their theories:<\/p>\r\n<ol>\r\n  <li><strong>A Mutated Squirrel:<\/strong> Some believe Nom Nom could be an evolved species of cafeteria-dwelling squirrel with a penchant for human food.<\/li>\r\n  <li><strong>A Science Experiment Gone Wrong:<\/strong> A rumor suggests Nom Nom is the result of a failed science project, accidentally granted super-speed.<\/li>\r\n  <li><strong>A Student in Disguise:<\/strong> Others speculate that Nom Nom is, in fact, a student with a secret mission to collect lunches.<\/li>\r\n<\/ol>\r\n\r\n<h3>Efforts to Catch Nom Nom<\/h3>\r\n<p>In an effort to end the lunchroom chaos, school officials have implemented the following strategies:<\/p>\r\n<ul>\r\n  <li>Setting up decoy lunches with hidden trackers.<\/li>\r\n  <li>Installing high-speed cameras at strategic locations.<\/li>\r\n  <li>Recruiting students to form a 'Nom Nom Watch Patrol.'<\/li>\r\n<\/ul>\r\n\r\n<h3>How to Protect Your Lunch<\/h3>\r\n<p>Until Nom Nom is caught, here are some tips to ensure your lunch remains safe:<\/p>\r\n<ul>\r\n  <li>Keep your food in a locked lunchbox.<\/li>\r\n  <li>Eat in groups\u2014Nom Nom prefers isolated snacks.<\/li>\r\n  <li>Use coded messages to disguise your lunch\u2019s true contents.<\/li>\r\n<\/ul>\r\n\r\n<h3>The Future of Nom Nom<\/h3>\r\n<p>Despite all efforts, Nom Nom remains at large, an enigma wrapped in mystery. Will the legendary lunch thief ever be caught? Or will Nom Nom continue to haunt cafeterias for generations to come?<\/p>\r\n\r\n<p>Stay vigilant, keep your snacks close, and if you spot Nom Nom\u2014report immediately to the cafeteria staff!<\/p>\"\r\n",
+      "questionText": "Click on the words that Nom Nom does **not** like.",
+      "categories":[],
+
+      "questionContext": "Nom Nom eats pies, plums and the odd bug. Nom Nom hates cakes.",
+      "options": ["pies", "plums", "bug", "cakes"],
+      "correctAnswer": ["3"],
+      "type": "sentenceSelection"
+    },
+    {
+      "id": 3,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "selectionMultiple",
+      "image": "assets/images/nom_nom.jpg",
+      "description": "Nom Nom is wanted for taking children's lunches.",
+      "questionText": "Which statements are correct?",
+      "categories":[],
+
+      "options": [
+        "Nom Nom eats pies.",
+        "https://cdn-icons-png.flaticon.com/512/3075/3075494.png",
+        "Nom Nom eats combs."
+      ],
+      "correctAnswer": ["0", "1"],
+      "type": "selectionMultiple"
+    },
+    {
+      "id": 4,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "multipleTrueFalse",
+
+      "image": "assets/images/nom_nom.jpg",
+      "description": "",
+      "questionText": "Decide whether the following statements are True or False.",
+      "categories":["https://cdn-icons-png.flaticon.com/512/616/616430.png", "false","test"],
+
+      "options": [
+        "Nom Nom hates pies.",
+        "https://cdn-icons-png.flaticon.com/512/616/616430.png",
+        "Nom Nom eats combs."
+      ],
+      "correctAnswer": ["0", "1", "0"],
+      "type": "multipleTrueFalse"
+    },
+    {
+      "id": 5,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "wordMatching",
+      "image": "assets/images/nom_nom.jpg",
+      "description": "Move the words on the left to the correct group.",
+      "questionText": "Move the words on the left to the correct group.",
+      "questionContext": "Leaves change color and fall quickly during the cool autumn season.",
+      "categories":["verb", "adverb", "adjective"],
+      "options": ["quickly", "change", "cool"],
+      "correctAnswer": ["quickly:adverb", "change:verb", "cool:adjective"],
+      "type": "wordMatching"
+    },
+    {
+      "id": 16,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "wordMatching",
+      "image": "assets/images/nom_nom.jpg",
+      "description": "Nom Nom is wanted for taking children's lunches.",
+      "questionText": "Match the words",
+      "categories":["https://cdn-icons-png.flaticon.com/512/3075/3075494.png","eyes","hair"],
+
+      "options": ["https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5d0fa5cd-4503-e911-80c0-0003ff85dc19/horse.jpg", "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5e0fa5cd-4503-e911-80c0-0003ff85dc19.jpg", "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5f0fa5cd-4503-e911-80c0-0003ff85dc19/fish.jpg"],
+      "correctAnswer": ["pink:eyes", "wobbly:teeth", "knotty:hair"],
+      "type": "wordMatching"
+    },
+    {
+      "id": 12,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "dragAndDropImages",
+      "image": "assets/images/nom_nom.jpg",
+      "questionTextImage":"https://cdn-icons-png.flaticon.com/512/3075/3075494.png",
+
+      "description": "",
+      "questionText": "Drag the animal images to the correct first letter.",
+      "categories":["C", "F", "H"],
+
+      "options": ["https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5d0fa5cd-4503-e911-80c0-0003ff85dc19/horse.jpg", "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5e0fa5cd-4503-e911-80c0-0003ff85dc19.jpg", "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5f0fa5cd-4503-e911-80c0-0003ff85dc19/fish.jpg"],
+      "correctAnswer": [
+        "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5d0fa5cd-4503-e911-80c0-0003ff85dc19/horse.jpg:H",
+        "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5e0fa5cd-4503-e911-80c0-0003ff85dc19.jpg:C",
+        "https://adsptprod-exgmf9d8ebhcazcv.a01.azurefd.net/uploads/demo-admin/moduleassets/9352e2db-2e03-e911-80c0-0003ff85dc19/5f0fa5cd-4503-e911-80c0-0003ff85dc19/fish.jpg:F"
+      ],
+      "type": "dragAndDropImages"
+    },
+    {
+      "id": 6,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "dropdownSelection",
+      "image": "assets/images/nom_nom.jpg",
+      "description": "Choose the word that best completes the sentence.",
+      "questionText": "Choose the word that best completes the sentence below.",
+      "questionContext": "What is the value of $\\sqrt{9}$?? has a [1] ball. And this is a new [2] implement, and this is [3] test",
+      "options": ["1:red", "1:blue", "1:green", "1:yellow","2:function", "2:feature", "2:project","3:a","3:an"],
+      "categories":[],
+      "correctAnswer": ["1:blue", "2:function", "3:a"],
+      "type": "dropdownSelection"
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "multipleChoiceImage",
+      "image": "",
+      "description": "Which of these is a toy from the story?",
+      "questionText": "Which of these is a toy from the story?",
+      "categories":[],
+
+      "options": [
+        "https://naplan-images.s3.ap-southeast-2.amazonaws.com/uploads/8600_answer_34397.png",
+        "https://naplan-images.s3.ap-southeast-2.amazonaws.com/uploads/3075494.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRAsfa5TL2vGA2qoJO1JgPIPTi-zxxXT8x_w&s",
+        "https://cdn-icons-png.flaticon.com/512/616/616430.png"
+      ],
+      "correctAnswer": ["2"],
+      "type": "multipleChoiceImage"
+    },
+    {
+      "id": 11,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "dragToOrder",
+      "image": "",
+      "description": "Place these events in the order in which they actually happened.",
+      "questionText": "Place these events in the correct order:",
+      "categories":["https://cdn-icons-png.flaticon.com/512/3075/3075494.png","2","3","4"],
+      "options": [
+        "Tom looked for the lamb.",
+        "Tom sat under a gum tree with the lamb.",
+        "https://cdn-icons-png.flaticon.com/512/3075/3075494.png",
+        "The lamb got lost."
+      ],
+      "correctAnswer": ["3", "0", "2", "1"],
+      "type": "dragToOrder"
+    },
+
+    {
+      "id": 8,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "dragToChoice",
+      "image": "",
+      "description": "any description example",
+      "categories":[],
+
+      "questionText": "<div><p>Carl was counting <b>forward</b> by 10.</p><p>He began at 63.&nbsp;</p></div>",
+      "questionContext": "Tom ____ the lamb to ____ it go to sleep.",
+      "options": ["rocked", "watched", "sang to", "talked to","help"],
+      "correctAnswer": ["rocked", "help"],
+      "size": 2,
+      "type": "dragToChoice"
+    },
+    {
+      "id": 13,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "dragToGroup",
+      "image": "",
+      "description": "Place these events in the group in which they actually happened.",
+      "questionText": "Group the following events:",
+      "categories": ["https://cdn-icons-png.flaticon.com/512/616/616430.png", "Start with B", "Start with C"],
+      "options": [
+        "https://cdn-icons-png.flaticon.com/512/616/616430.png",
+        "A dog sat under a gum tree with the lamb.",
+        "Back to home",
+        "Come to me"
+      ],
+      "correctAnswer": ["Start with A|A cat looked for the lamb.|A dog sat under a gum tree with the lamb.", "Start with B|Back to home", "Start with C|Come to me"],
+      "type": "dragToGroup"
+    },
+    {
+      "id": 9,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "gridToChoice",
+      "image": "",
+      "description": "any description example",
+      "categories":[],
+
+      "questionText": "Choose the word or words that best complete the sentence below.",
+      "questionContext": "Tom ____ the lamb to help it go to sleep.",
+      "gridSize": 7,
+      "gridItems": [
+        "empty", "empty", "empty", "empty", "empty","test","test",
+        "https://cdn-icons-png.flaticon.com/512/3075/3075494.png", "https://cdn-icons-png.flaticon.com/512/3075/3075494.png", "empty", "https://cdn-icons-png.flaticon.com/512/3075/3075494.png", "https://cdn-icons-png.flaticon.com/512/3075/3075494.png","test","test",
+        "bush", "bush", "empty", "bush", "bush","test","test",
+        "bush", "bush", "empty", "https://cdn-icons-png.flaticon.com/512/3075/3075494.png", "bush","test","test",
+        "empty", "empty", "empty", "empty", "empty","test","test",
+        "empty", "empty", "empty", "empty", "empty","test","test",
+        "empty", "empty", "empty", "empty", "empty","test","test"
+
+      ],
+      "options": [],
+      "correctAnswer": ["5"],
+      "type": "gridToChoice"
+    },
+    {
+      "id": 10,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "fillTheBlank",
+      "image": "",
+      "description": "any description example",
+      "categories":[],
+      "questionText": "Type the words in order that best complete the sentence below.",
+      "questionContext": "Tom ____ the lamb to ____ it go to sleep.",
+      "options": [], "size": 2,
+      "correctAnswer": ["rocked", "help"],
+      "type": "fillTheBlank"
+    },
+    {
+      "id": 100,
+      "level": 1,
+      "groupId": 1,
+      "subjectId": 1,
+      "title": "narrativeWriting",
+      "image": "",
+      "description": "any description example",
+      "categories":[],
+      "questionText": "Type the words in order that best complete the sentence below.",
+      "questionContext": "Tom ____ the lamb to ____ it go to sleep.",
+      "options": [], "size": 2,
+      "correctAnswer": ["rocked", "help"],
+      "type": "narrativeWriting"
+    }             
+  ]

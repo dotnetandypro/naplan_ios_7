@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="naplan_ui">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>naplan_ui</title>
+  <link rel="manifest" href="manifest.json">
+  
+  <script>
+    // Enable console logging in debug mode
+    const debugMode = true;  // Set to true to enable console and debugging
+    
+    // Create a safe console wrapper AND patch the native console for Flutter web
+    const safeConsole = {
+      log: function() {
+        if (debugMode && window.console && window.console.log) {
+          window.console.log.apply(window.console, arguments);
+        }
+      },
+      error: function() {
+        if (debugMode && window.console && window.console.error) {
+          window.console.error.apply(window.console, arguments);
+        }
+      },
+      warn: function() {
+        if (debugMode && window.console && window.console.warn) {
+          window.console.warn.apply(window.console, arguments);
+        }
+      },
+      info: function() {
+        if (debugMode && window.console && window.console.info) {
+          window.console.info.apply(window.console, arguments);
+        }
+      }
+    };
+    
+    // IMPORTANT: Fix to make Dart print statements work
+    // This ensures that the native console methods are not blocked
+    if (debugMode) {
+      console._log = console.log;
+      console._error = console.error;
+      console._warn = console.warn;
+      console._info = console.info;
+      
+      console.log = function() {
+        console._log.apply(console, arguments);
+      };
+      console.error = function() {
+        console._error.apply(console, arguments);
+      };
+      console.warn = function() {
+        console._warn.apply(console, arguments);
+      };
+      console.info = function() {
+        console._info.apply(console, arguments);
+      };
+    }
+    
+    // Log that we're in debug mode
+    safeConsole.log("Debug mode enabled - console logs will be visible");
+    
+    // Prevent right click
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Prevent keyboard shortcuts for inspection
+    document.addEventListener('keydown', function(e) {
+      // Skip prevention if in debug mode
+      if (debugMode) return;
+      
+      // Prevent F12
+      if (e.key === 'F12' || e.keyCode === 123) {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Prevent Ctrl+Shift+I (Chrome, Firefox, Safari)
+      if ((e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.keyCode === 73)) || 
+          // Prevent Ctrl+Shift+J (Chrome)
+          (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j' || e.keyCode === 74)) ||
+          // Prevent Ctrl+Shift+C (Chrome)
+          (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c' || e.keyCode === 67)) ||
+          // Prevent Ctrl+U (View source)
+          (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.keyCode === 85)) ||
+          // Prevent Command+Option+I (Mac)
+          (e.metaKey && e.altKey && (e.key === 'I' || e.key === 'i' || e.keyCode === 73)) ||
+          // Prevent Command+Option+J (Mac)
+          (e.metaKey && e.altKey && (e.key === 'J' || e.key === 'j' || e.keyCode === 74)) ||
+          // Prevent Command+Option+C (Mac)
+          (e.metaKey && e.altKey && (e.key === 'C' || e.key === 'c' || e.keyCode === 67))) {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // Disable select and copy
+    document.addEventListener('selectstart', function(e) { 
+      e.preventDefault();
+      return false;
+    });
+    
+    document.addEventListener('copy', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // DevTools detection - multiple methods
+    function detectDevTools() {
+      // Skip prevention if in debug mode
+      if (debugMode) return;
+      
+      // Method 1: Window size difference
+      const widthThreshold = window.outerWidth - window.innerWidth > 160;
+      const heightThreshold = window.outerHeight - window.innerHeight > 160;
+      
+      // Method 2: Check for debugger
+      const isDebuggerEnabled = /debugger/.test(new Error().stack);
+      
+      // Method 3: Check for developer tools object
+      const hasDevTools = window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized;
+      
+      if (!debugMode && (widthThreshold || heightThreshold || isDebuggerEnabled || hasDevTools)) {
+        // DevTools may be open - take protective action
+        document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;font-family:Arial;">Inspection not allowed</h1>';
+        document.body.style.background = '#f8f8f8';
+      }
+    }
+
+    // Check at regular intervals
+    setInterval(detectDevTools, 1000);
+
+    // Additional protection: prevent iframe embedding (prevents some inspection techniques)
+    // if (window.self !== window.top) {
+    //   window.top.location.href = window.self.location.href;
+    // }
+
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

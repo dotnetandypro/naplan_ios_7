@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Naplan UI Application">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naplan UI</title>
+  <base href="/">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  
+  <script>
+    // Enable console logging in debug mode
+    const debugMode = true;  // Set to true to enable console and debugging
+    
+    // Create a safe console wrapper that works even with security measures
+    const safeConsole = {
+      log: function() {
+        if (debugMode && window.console && window.console.log) {
+          window.console.log.apply(window.console, arguments);
+        }
+      },
+      error: function() {
+        if (debugMode && window.console && window.console.error) {
+          window.console.error.apply(window.console, arguments);
+        }
+      },
+      warn: function() {
+        if (debugMode && window.console && window.console.warn) {
+          window.console.warn.apply(window.console, arguments);
+        }
+      },
+      info: function() {
+        if (debugMode && window.console && window.console.info) {
+          window.console.info.apply(window.console, arguments);
+        }
+      }
+    };
+    
+    // Log that we're in debug mode
+    safeConsole.log("Debug mode enabled - console logs will be visible");
+    
+    // Prevent right click
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Prevent keyboard shortcuts for inspection
+    document.addEventListener('keydown', function(e) {
+      // Skip prevention if in debug mode
+      if (debugMode) return;
+      
+      // Prevent F12
+      if (e.key === 'F12' || e.keyCode === 123) {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Prevent Ctrl+Shift+I (Chrome, Firefox, Safari)
+      if ((e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.keyCode === 73)) || 
+          // Prevent Ctrl+Shift+J (Chrome)
+          (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j' || e.keyCode === 74)) ||
+          // Prevent Ctrl+Shift+C (Chrome)
+          (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c' || e.keyCode === 67)) ||
+          // Prevent Ctrl+U (View source)
+          (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.keyCode === 85)) ||
+          // Prevent Command+Option+I (Mac)
+          (e.metaKey && e.altKey && (e.key === 'I' || e.key === 'i' || e.keyCode === 73)) ||
+          // Prevent Command+Option+J (Mac)
+          (e.metaKey && e.altKey && (e.key === 'J' || e.key === 'j' || e.keyCode === 74)) ||
+          // Prevent Command+Option+C (Mac)
+          (e.metaKey && e.altKey && (e.key === 'C' || e.key === 'c' || e.keyCode === 67))) {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // Disable select and copy
+    document.addEventListener('selectstart', function(e) { 
+      e.preventDefault();
+      return false;
+    });
+    
+    document.addEventListener('copy', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // DevTools detection - improved methods without console manipulation
+    function preventDevTools() {
+      // Skip prevention if in debug mode
+      if (debugMode) return;
+      
+      // Method 1: Window size difference
+      const widthThreshold = window.outerWidth - window.innerWidth > 160;
+      const heightThreshold = window.outerHeight - window.innerHeight > 160;
+      
+      // Method 2: Check for debugger
+      const isDebuggerEnabled = /debugger/.test(new Error().stack);
+      
+      // Method 3: Check for developer tools object
+      const hasDevTools = window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized;
+      
+      if (!debugMode && (widthThreshold || heightThreshold || isDebuggerEnabled || hasDevTools)) {
+        // DevTools may be open - take protective action
+        document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;font-family:Arial;">Inspection not allowed</h1>';
+        document.body.style.background = '#f8f8f8';
+      }
+    }
+
+    // Check every 1 second
+    setInterval(preventDevTools, 1000);
+    
+    // Additional protection: prevent iframe embedding (prevents some inspection techniques)
+    // if (window.self !== window.top) {
+    //   window.top.location.href = window.self.location.href;
+    // }
+  </script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
